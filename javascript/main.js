@@ -92,7 +92,7 @@ function crearCardsTodos(array) {
 
 
 function botonFiltro(id, array) { //id del boton y array que quiero mostrar en el filtro
-    
+
     let btnFiltro = document.getElementById(id)
     btnFiltro.addEventListener('click', respClick) //evento al click en el boton
     function respClick() {
@@ -115,7 +115,6 @@ botonFiltro("filtro-blanco", colorBlanco)
 
 function main() {
     crearCardsTodos(listaProductos)
-    
 }
 
 main()
